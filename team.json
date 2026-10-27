@@ -1,18 +1,22 @@
 {
-  "name": "Your Team Name",
+  "name": "Eat My Grass",
   "roster": [
-    "Player 1",
-    "Player 2",
-    "Player 3",
-    "Player 4",
-    "Player 5",
-    "Player 6"
+    "Johnny",
+    "Warren",
+    "Kyle",
+    "Philip",
+    "Felix",
+    "Harrison",
+    "Jay",
+    "JD"
   ],
   "labels": [
     "Serve",
     "Receive",
     "Set",
+    "Dump",
     "Hit",
-    "Block"
+    "Block",
+    "Moment"
   ]
 }
