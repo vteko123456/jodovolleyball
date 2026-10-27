@@ -1,0 +1,35 @@
+name: Deploy team hub
+
+# This file builds and publishes your team's site. You don't need to edit it.
+# The hub code comes from the stable release (v1) of KagazzIe/TMT-VolleyballHub each time this runs;
+# this repo only holds data.
+
+on:
+  push:
+    branches: [main]          # uploading data redeploys the site
+  schedule:
+    - cron: '17 9 * * 1'      # Mondays: pick up hub updates
+  workflow_dispatch:
+  repository_dispatch:
+    types: [team-data-updated]   # only used with a separate private data repo
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy
+    # Skipped in the template repo itself, and on the first commit of a repo made from it
+    # (Pages isn't switched on yet then, so that run could only fail).
+    if: ${{ !github.event.repository.is_template && !(github.event_name == 'push' && github.run_number == 1) }}
+    uses: KagazzIe/TMT-VolleyballHub/.github/workflows/deploy.yml@v1
+    with:
+      # Leave TEAM_DATA_REPO unset to use this repo's own files.
+      team_data_repo: ${{ vars.TEAM_DATA_REPO }}
+    secrets: inherit
