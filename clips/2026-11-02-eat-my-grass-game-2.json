@@ -68,7 +68,9 @@
       "id": "mvzlkp5f",
       "start": 90.4,
       "end": 100.4,
-      "players": [],
+      "players": [
+        "Johnny"
+      ],
       "action": "Set",
       "note": ""
     },
