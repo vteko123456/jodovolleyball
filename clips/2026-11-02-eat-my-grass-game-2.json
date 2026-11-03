@@ -912,6 +912,36 @@
       ],
       "action": "Hit",
       "note": ""
+    },
+    {
+      "id": "mw0v8pc8",
+      "start": 618.3,
+      "end": 628.3,
+      "players": [
+        "Jay"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mw0v8sdy",
+      "start": 619.7,
+      "end": 629.7,
+      "players": [
+        "Johnny"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mw0v8tsf",
+      "start": 621.5,
+      "end": 631.5,
+      "players": [
+        "Jay"
+      ],
+      "action": "Hit",
+      "note": ""
     }
   ]
 }
