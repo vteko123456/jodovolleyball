@@ -14,14 +14,14 @@
     ]
   },
   "roster": [
-    "Johnny",
+    "Phil",
     "Warren",
-    "Kyle",
-    "Philip",
-    "Felix",
-    "Harrison",
+    "Johnny",
     "Jay",
-    "JD"
+    "Kyle",
+    "JD",
+    "Felix",
+    "Harrison"
   ],
   "clips": [
     {
@@ -698,6 +698,66 @@
       "end": 511.6,
       "players": [
         "JD"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mw0s01qd",
+      "start": 521.3,
+      "end": 531.3,
+      "players": [
+        "Harrison"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mw0s0a5g",
+      "start": 523.1,
+      "end": 533.1,
+      "players": [
+        "Phil"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mw0s0dzr",
+      "start": 524.9,
+      "end": 534.9,
+      "players": [
+        "Kyle"
+      ],
+      "action": "Hit",
+      "note": ""
+    },
+    {
+      "id": "mw0s0s8x",
+      "start": 527.5,
+      "end": 537.5,
+      "players": [
+        "Jay"
+      ],
+      "action": "Receive",
+      "note": ""
+    },
+    {
+      "id": "mw0s0yx9",
+      "start": 528.9,
+      "end": 538.9,
+      "players": [
+        "Johnny"
+      ],
+      "action": "Set",
+      "note": ""
+    },
+    {
+      "id": "mw0s13e8",
+      "start": 530.7,
+      "end": 540.7,
+      "players": [
+        "Jay"
       ],
       "action": "Hit",
       "note": ""
